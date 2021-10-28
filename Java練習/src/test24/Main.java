@@ -15,7 +15,6 @@ public class Main {
 			h = h + 1;
 			m = m + 30 - 60;
 		} else {
-			h = h;
 			m = m + 30;
 		}
 		
@@ -30,5 +29,6 @@ public class Main {
 		}
 		
 		System.out.println(newH + ":" + newM);
+		sc.close();
 	}
 }
